@@ -1,0 +1,19 @@
+body{
+  background-image: url(Pictures/Stardew_back.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  
+  
+  
+}
+
+#main{
+  width: 100%;
+  height: 100% ;
+ 
+}
+
+
+/* https://stackoverflow.com/questions/50694292/checkbox-and-sibling-selector */
+
