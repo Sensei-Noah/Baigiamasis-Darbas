@@ -7,7 +7,7 @@ const accordionContent = document.getElementById(
 // document.accordionContent.appendChild(content);
 
 const singleBundle = standardBundles.map((bundle, index) => {
-  //console.log(bundle.rooms.craftsRoom.springForageBundle);
+  // console.log(bundle.rooms.craftsRoom.springForageBundle);
 });
 
 accordionContent.innerHTML = `
@@ -46,6 +46,40 @@ aria-labelledby="panelsStayOpen-heading${standardBundles[0].rooms.craftsRoom.nam
 >
 <div class="accordion-body">
 ${standardBundles[0].rooms.craftsRoom.bundles.springForageBundle.name}
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">
+      <input
+      class="form-check-input"
+      type="checkbox"
+      value=""
+      id="Wild_Horseradish"
+    />
+      </th>
+      <td>
+      <img
+      src="${standardBundles[0].rooms.craftsRoom.bundles.springForageBundle.items.Wild_Horseradish.image}"
+      class=""
+      alt=""
+    />
+      ${standardBundles[0].rooms.craftsRoom.bundles.springForageBundle.items.Wild_Horseradish.name}
+      </td>
+      <td>
+      ${standardBundles[0].rooms.craftsRoom.bundles.springForageBundle.items.Wild_Horseradish.description}
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 </div>
 </div>
 </div>
