@@ -1,3 +1,4 @@
+
 import { standardBundles } from "./data.js";
 
 const accordionHead = document.getElementById("accordionPanelsStayOpenExample");

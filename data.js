@@ -1,3 +1,4 @@
+
 export let standardBundles = {
   bundleRewardImage:
     "https://stardewvalleywiki.com/mediawiki/images/thumb/1/16/Bundle_Reward.png/18px-Bundle_Reward.png",
