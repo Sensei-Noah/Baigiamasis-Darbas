@@ -4,10 +4,11 @@ const accordionHead = document.getElementById("accordionPanelsStayOpenExample");
 
 for (let k in standardBundles.rooms) {
   let accordionContent = document.createElement("div");
+  accordionContent.className = "accordion-item bg-transparent";
   accordionHead.appendChild(accordionContent);
 
   accordionContent.innerHTML = `
-  <div class="accordion-item">
+  
   <h2 class="accordion-header" id="panelsStayOpen-heading${standardBundles.rooms[
     k
   ].name.replace(" ", "_")}">
@@ -34,62 +35,76 @@ for (let k in standardBundles.rooms) {
     k
   ].name.replace(" ", "_")}"
   >
-  <div class="accordion-body" id="accordion-body-content">
+  <div class="accordion-body table" id="accordion-body-content${k}">
   
   </div>
   
   </div>
-  </div>
+  
   `;
 
   for (let i in standardBundles.rooms[k].bundles) {
-    //console.log("<h1>" + standardBundles.rooms.craftsRoom.bundles[i].name + "</h1>");
+    //console.log(standardBundles.rooms[k].bundles[i].name);
+    const body_content = document.getElementById("accordion-body-content" + k);
 
-    const body_content = document.getElementById("accordion-body-content");
-    let content = document.createElement("div");
+    let content = document.createElement("table");
+    content.className =
+      "table table-hover table-responsive table-sm bg-light border border-2 rounded-3";
     body_content.appendChild(content);
 
+    let contentThead = document.createElement("thead");
+    content.appendChild(contentThead);
+
+    let contentTbody = document.createElement("tbody");
+    content.appendChild(contentTbody);
+
+    contentThead.innerHTML = `
+
+      <tr>
+        <th scope="col" class="col-2">${standardBundles.rooms[k].bundles[i].name}</th>
+        <th scope="col" class="col-6">Description</th>
+        <th scope="col" class="col-1">Wiki link</th>
+      </tr>
+
+  `;
+
     for (let n in standardBundles.rooms[k].bundles[i].items) {
-      content.innerHTML = `
-    <table class="table">
-      <thead>
-        <tr>
-          <th scope="col">${standardBundles.rooms[k].bundles[i].name}</th>
-          <th scope="col">Description</th>
-          <th scope="col">Wiki link</th>
-        </tr>
-      </thead>
+      let contentTr = document.createElement("tr");
+      contentTbody.appendChild(contentTr);
 
-      <tbody>
-        <tr>
-          <th scope="row">
-            <input
-              class="form-check-input me-1"
-              type="checkbox"
-              value=""
-              id="NAMEID"
-            />
-            <img
-            src="${standardBundles.rooms[k].bundles[i].items[n].image}"
-            class=""
-            alt=""
+      contentTr.innerHTML = `
+
+        <th scope="row">
+
+          <input
+            class="form-check-input me-1"
+            type="checkbox"
+            value=""
+            id="${standardBundles.rooms[k].bundles[i].items[n].name.replaceAll(
+              " ",
+              "_"
+            )}"
           />
-            ${standardBundles.rooms[k].bundles[i].items[n].name}
-          </th>
-          <td>
-          
-          <div>
-          ${standardBundles.rooms[k].bundles[i].items[n].description}
-          </div>
 
-          </td>
-          <td>
-            <a href="${standardBundles.rooms[k].bundles[i].items[n].wiki}">Wiki</a>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-    `;
+          <img
+          src="${standardBundles.rooms[k].bundles[i].items[n].image}"
+          class=""
+          alt=""
+          />
+          
+          ${standardBundles.rooms[k].bundles[i].items[n].name}
+
+        </th>
+
+        <td>${standardBundles.rooms[k].bundles[i].items[n].description}</td>
+
+        <td>
+          <a href="${
+            standardBundles.rooms[k].bundles[i].items[n].wiki
+          }">Wiki</a>
+        </td>
+
+  `;
     }
   }
 }

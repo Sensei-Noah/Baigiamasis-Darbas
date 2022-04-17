@@ -1,8 +1,9 @@
 export let standardBundles = {
   bundleRewardImage:
     "https://stardewvalleywiki.com/mediawiki/images/thumb/1/16/Bundle_Reward.png/18px-Bundle_Reward.png",
-  rooms: {
-    craftsRoom: {
+  rooms: [
+    // Crafts room
+    {
       name: "Crafts Room",
       roomReward: "Bridge Repair",
       bundles: [
@@ -291,7 +292,8 @@ export let standardBundles = {
         },
       ],
     },
-    pantry: {
+    // Pantry
+    {
       name: "Pantry",
       roomReward: "Greenhouse",
       bundles: [
@@ -338,24 +340,36 @@ export let standardBundles = {
         },
       ],
     },
-  },
+  ],
 };
 
 // standardBundles.map((bundle, index) => {
 // });
 
-Object.keys(standardBundles.rooms).forEach((keyz) => {
-  //console.log(key, standardBundles.rooms[key].bundles);
-  Object.keys(standardBundles.rooms[keyz].bundles).forEach((key) => {
-    console.log(key, standardBundles.rooms[keyz].bundles[key].name);
+Object.keys(standardBundles.rooms).forEach((z) => {
+  // console.log(z, standardBundles.rooms[z].name);
+  Object.keys(standardBundles.rooms[z].bundles).forEach((key) => {
+    // console.log(key, standardBundles.rooms[z].bundles[key].name);
   });
 });
 for (let k in standardBundles.rooms) {
-  //console.log(standardBundles.rooms[k]);
+  if(k == 0){
+    //console.log(k, standardBundles.rooms[k].name);
+    }else{
+    //console.log(k, standardBundles.rooms[k].name);
+    }
+
   for (let i in standardBundles.rooms[k].bundles) {
+    if(i == 0){
+      //console.log(i, standardBundles.rooms[k].bundles[i].name);
+      }
     //console.log(standardBundles.rooms[k].bundles[i].name);
     for (let j in standardBundles.rooms[k].bundles[i].items) {
-      //console.log(standardBundles.rooms.craftsRoom.bundles[i].items[j].name);
+      // console.log(standardBundles.rooms[k].name);
+      if(j == 0){
+      //console.log(standardBundles.rooms[k].bundles[i].items[j].name);
+      }
+      //console.log(standardBundles.rooms[k].bundles[i].items[j].name);
       //console.log(standardBundles.rooms.craftsRoom.bundles[i].items[j].description);
     }
   }
