@@ -19,7 +19,7 @@ for (let k in standardBundles.rooms) {
   data-bs-target="#panelsStayOpen-collapse${standardBundles.rooms[
     k
   ].name.replace(" ", "_")}"
-  aria-expanded="true"
+  aria-expanded="false"
   aria-controls="panelsStayOpen-collapse${standardBundles.rooms[k].name.replace(
     " ",
     "_"
@@ -30,7 +30,7 @@ for (let k in standardBundles.rooms) {
   </h2>
   <div
   id="panelsStayOpen-collapse${standardBundles.rooms[k].name.replace(" ", "_")}"
-  class="accordion-collapse collapse show"
+  class="accordion-collapse collapse"
   aria-labelledby="panelsStayOpen-heading${standardBundles.rooms[
     k
   ].name.replace(" ", "_")}"
@@ -66,11 +66,35 @@ for (let k in standardBundles.rooms) {
         <th scope="col" class="col-1">Wiki link</th>
       </tr>
 
-  `;
+    `;
+    let contentReward = document.createElement("tr");
+    contentReward.innerHTML = `
+    <th scope="row">
+
+      <img
+      src="${standardBundles.bundleRewardImage}"
+      class=""
+      alt=""
+      />
+
+      Reward:
+
+      <img
+      src="${standardBundles.rooms[k].bundles[i].bundleReward.image}"
+      class=""
+      alt=""
+      />
+
+      ${standardBundles.rooms[k].bundles[i].bundleReward.item}
+
+    </th>
+    `;
 
     for (let n in standardBundles.rooms[k].bundles[i].items) {
       let contentTr = document.createElement("tr");
       contentTbody.appendChild(contentTr);
+      // Reward line
+      contentTbody.appendChild(contentReward);
 
       contentTr.innerHTML = `
 
@@ -99,12 +123,11 @@ for (let k in standardBundles.rooms) {
         <td>${standardBundles.rooms[k].bundles[i].items[n].description}</td>
 
         <td>
-          <a href="${
+          <a target="_blank" href="${
             standardBundles.rooms[k].bundles[i].items[n].wiki
           }">Wiki</a>
         </td>
-
-  `;
+      `;
     }
   }
 }

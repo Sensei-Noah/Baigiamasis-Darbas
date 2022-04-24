@@ -338,13 +338,755 @@ export let standardBundles = {
             },
           ],
         },
+        //Summer Crops Bundle
+        {
+          name: "Summer Crops Bundle",
+          bundleImage:
+            "https://stardewvalleywiki.com/mediawiki/images/2/27/Summer_Crops_Bundle.png",
+          bundleReward: {
+            item: "Quality Sprinkler (1)",
+            image:
+              "https://stardewvalleywiki.com/mediawiki/images/thumb/a/af/Quality_Sprinkler.png/24px-Quality_Sprinkler.png",
+          },
+          items: [
+            {
+              name: "Tomato",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/9/9d/Tomato.png/24px-Tomato.png",
+              description: "Summer Crops",
+              wiki: "https://stardewvalleywiki.com/Tomato",
+            },
+            {
+              name: "Hot Pepper",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/f/f1/Hot_Pepper.png/24px-Hot_Pepper.png",
+              description: "Summer Crops",
+              wiki: "https://stardewvalleywiki.com/Hot_Pepper",
+            },
+            {
+              name: "Blueberry",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/9/9e/Blueberry.png/24px-Blueberry.png",
+              description: "Summer Crops",
+              wiki: "https://stardewvalleywiki.com/Blueberry",
+            },
+            {
+              name: "Melon",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/1/19/Melon.png/24px-Melon.png",
+              description: "Summer Crops",
+              wiki: "https://stardewvalleywiki.com/Melon",
+            },
+          ],
+        },
+        //Fall Crops Bundle
+        {
+          name: "Fall Crops Bundle",
+          bundleImage:
+            "https://stardewvalleywiki.com/mediawiki/images/0/0d/Fall_Crops_Bundle.png",
+          bundleReward: {
+            item: "Bee House (1)",
+            image:
+              "https://stardewvalleywiki.com/mediawiki/images/thumb/c/ce/Bee_House.png/24px-Bee_House.png",
+          },
+          items: [
+            {
+              name: "Corn",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/f/f8/Corn.png/24px-Corn.png",
+              description: "Summer / Fall Crops",
+              wiki: "https://stardewvalleywiki.com/Corn",
+            },
+            {
+              name: "Eggplant",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/8/8f/Eggplant.png/24px-Eggplant.png",
+              description: "Fall Crops",
+              wiki: "https://stardewvalleywiki.com/Eggplant",
+            },
+            {
+              name: "Pumpkin",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/6/64/Pumpkin.png/24px-Pumpkin.png",
+              description: "Fall Crops",
+              wiki: "https://stardewvalleywiki.com/Pumpkin",
+            },
+            {
+              name: "Yam",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/5/52/Yam.png/24px-Yam.png",
+              description:
+                "Fall Crops, dropped by Duggies on floors 6-29 of The Mines (3%)",
+              wiki: "https://stardewvalleywiki.com/Yam",
+            },
+          ],
+        },
+        //Quality Crops Bundle
+        {
+          name: "Quality Crops Bundle",
+          bundleImage:
+            "https://stardewvalleywiki.com/mediawiki/images/8/86/Quality_Crops_Bundle.png",
+          bundleReward: {
+            item: "Preserves Jar (1)",
+            image:
+              "https://stardewvalleywiki.com/mediawiki/images/thumb/1/1e/Preserves_Jar.png/24px-Preserves_Jar.png",
+          },
+          items: [
+            {
+              name: "Parsnip	(5)",
+              image: "Pictures/24px-Parsnip-Gold-Quality.png",
+              description: "Gold quality Spring Crops",
+              wiki: "https://stardewvalleywiki.com/Parsnip",
+            },
+            {
+              name: "Melon	(5)",
+              image: "Pictures/24px-Melon-Gold-Quality.png",
+              description: "Gold quality Summer Crops",
+              wiki: "https://stardewvalleywiki.com/Melon",
+            },
+            {
+              name: "Pumpkin	(5)",
+              image: "Pictures/24px-Pumpkin-Gold-Quality.png",
+              description: "Gold quality Fall Crops",
+              wiki: "https://stardewvalleywiki.com/Pumpkin",
+            },
+            {
+              name: "Corn	(5)",
+              image: "Pictures/24px-Corn-Gold-Quality.png",
+              description: "Gold quality Summer / Fall Crops",
+              wiki: "https://stardewvalleywiki.com/Corn",
+            },
+          ],
+        },
+        //Animal Bundle
+        {
+          name: "Animal Bundle",
+          bundleImage:
+            "https://stardewvalleywiki.com/mediawiki/images/5/52/Animal_Bundle.png",
+          bundleReward: {
+            item: "Cheese Press (1)",
+            image:
+              "https://stardewvalleywiki.com/mediawiki/images/thumb/7/79/Cheese_Press.png/24px-Cheese_Press.png",
+          },
+          items: [
+            {
+              name: "Large Milk",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/6/67/Large_Milk.png/24px-Large_Milk.png",
+              description: "Cows",
+              wiki: "https://stardewvalleywiki.com/Large_Milk",
+            },
+            {
+              name: "Large Egg (Brown)",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/9/91/Large_Brown_Egg.png/24px-Large_Brown_Egg.png",
+              description: "Brown Chickens",
+              wiki: "https://stardewvalleywiki.com/Large_Egg",
+            },
+            {
+              name: "Large Egg",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/5/5d/Large_Egg.png/24px-Large_Egg.png",
+              description: "White Chickens",
+              wiki: "https://stardewvalleywiki.com/Large_Egg",
+            },
+            {
+              name: "Large Goat Milk",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/f/f2/Large_Goat_Milk.png/24px-Large_Goat_Milk.png",
+              description: "Goats",
+              wiki: "https://stardewvalleywiki.com/Large_Goat_Milk",
+            },
+            {
+              name: "Wool",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/3/34/Wool.png/24px-Wool.png",
+              description: "Sheep, Rabbits",
+              wiki: "https://stardewvalleywiki.com/Wool",
+            },
+            {
+              name: "Duck Egg",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/3/31/Duck_Egg.png/24px-Duck_Egg.png",
+              description: "Ducks",
+              wiki: "https://stardewvalleywiki.com/Duck_Egg",
+            },
+          ],
+        },
+        //Artisan Bundle
+        {
+          name: "Artisan Bundle",
+          bundleImage:
+            "https://stardewvalleywiki.com/mediawiki/images/7/7a/Artisan_Bundle.png",
+          bundleReward: {
+            item: "Keg (1)",
+            image:
+              "https://stardewvalleywiki.com/mediawiki/images/thumb/7/7c/Keg.png/24px-Keg.png",
+          },
+          items: [
+            {
+              name: "Truffle Oil",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/3/3d/Truffle_Oil.png/24px-Truffle_Oil.png",
+              description: "Made from Truffles using an Oil Maker",
+              wiki: "https://stardewvalleywiki.com/Truffle_Oil",
+            },
+            {
+              name: "Cloth",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/5/51/Cloth.png/24px-Cloth.png",
+              description:
+                "Loom, Recycling a Soggy Newspaper, Desert Trader, dropped by Mummies in Skull Cavern",
+              wiki: "https://stardewvalleywiki.com/Cloth",
+            },
+            {
+              name: "Goat Cheese",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/c/c8/Goat_Cheese.png/24px-Goat_Cheese.png",
+              description: "Cheese Press",
+              wiki: "https://stardewvalleywiki.com/Goat_Cheese",
+            },
+            {
+              name: "Cheese",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/a/a5/Cheese.png/24px-Cheese.png",
+              description: "Cheese Press, Desert Trader",
+              wiki: "https://stardewvalleywiki.com/Cheese",
+            },
+            {
+              name: "Honey",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/c/c6/Honey.png/24px-Honey.png",
+              description: "Bee House, Oasis",
+              wiki: "https://stardewvalleywiki.com/Honey",
+            },
+            {
+              name: "Jelly",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/0/05/Jelly.png/24px-Jelly.png",
+              description: "Preserves Jar",
+              wiki: "https://stardewvalleywiki.com/Jellies_and_Pickles",
+            },
+            {
+              name: "Apple",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/7/7d/Apple.png/24px-Apple.png",
+              description:
+                "Apple Trees during Fall, The Farm Cave (fruit bat option)",
+              wiki: "https://stardewvalleywiki.com/Apple",
+            },
+            {
+              name: "Apricot",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/f/fc/Apricot.png/24px-Apricot.png",
+              description:
+                "Apricot Trees during Spring, The Farm Cave (fruit bat option)",
+              wiki: "https://stardewvalleywiki.com/Apricot",
+            },
+            {
+              name: "Orange",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/4/43/Orange.png/24px-Orange.png",
+              description:
+                "Orange Trees during Summer, The Farm Cave (fruit bat option)",
+              wiki: "https://stardewvalleywiki.com/Orange",
+            },
+            {
+              name: "Peach",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/e/e2/Peach.png/24px-Peach.png",
+              description:
+                "Peach Trees during Summer, The Farm Cave (fruit bat option)",
+              wiki: "https://stardewvalleywiki.com/Peach",
+            },
+            {
+              name: "Pomegranate",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/1/1b/Pomegranate.png/24px-Pomegranate.png",
+              description:
+                "Pomegranate Trees during Fall, The Farm Cave (fruit bat option)",
+              wiki: "https://stardewvalleywiki.com/Pomegranate",
+            },
+            {
+              name: "Cherry",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/2/20/Cherry.png/24px-Cherry.png",
+              description:
+                "Cherry Trees during Spring, The Farm Cave (fruit bat option)",
+              wiki: "https://stardewvalleywiki.com/Cherry",
+            },
+          ],
+        },
+      ],
+    },
+    //Fish Tank
+    {
+      name: "Fish Tank",
+      roomReward: "",
+      bundles: [
+        //River Fish Bundle
+        {
+          name: "River Fish Bundle",
+          bundleImage:
+            "https://stardewvalleywiki.com/File:River_Fish_Bundle.png",
+          bundleReward: {
+            item: "Bait (30)",
+            image:
+              "https://stardewvalleywiki.com/mediawiki/images/thumb/f/ff/Bait.png/24px-Bait.png",
+          },
+          items: [
+            {
+              name: "Sunfish",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/5/56/Sunfish.png/24px-Sunfish.png",
+              description:
+                "Found in Rivers, 6am - 7pm, Spring, and Summer during sunny weather. Found in the Riverlands Farm or in the Wilderness Farm pond during rainy weather.",
+              wiki: "https://stardewvalleywiki.com/Sunfish",
+            },
+            {
+              name: "Catfish",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/9/99/Catfish.png/24px-Catfish.png",
+              description:
+                "Found in Rivers and Secret Woods Pond 6am - midnight, Spring and Fall. Only when raining.",
+              wiki: "https://stardewvalleywiki.com/Catfish",
+            },
+            {
+              name: "Shad",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/e/ef/Shad.png/24px-Shad.png",
+              description:
+                "Found in Rivers, 9am - 2am, Spring, Summer, and Fall. Only when raining.",
+              wiki: "https://stardewvalleywiki.com/Shad",
+            },
+            {
+              name: "Tiger Trout",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/0/01/Tiger_Trout.png/24px-Tiger_Trout.png",
+              description: "Found in Rivers, 6am - 7pm, Fall and Winter.",
+              wiki: "https://stardewvalleywiki.com/Tiger_Trout",
+            },
+          ],
+        },
+        //Lake Fish Bundle
+        {
+          name: "",
+          bundleImage: "",
+          bundleReward: {
+            item: "",
+            image: "",
+          },
+          items: [
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+          ],
+        },
+        //Ocean Fish Bundle
+        {
+          name: "",
+          bundleImage: "",
+          bundleReward: {
+            item: "",
+            image: "",
+          },
+          items: [
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+          ],
+        },
+        //Night Fishing Bundle
+        {
+          name: "",
+          bundleImage: "",
+          bundleReward: {
+            item: "",
+            image: "",
+          },
+          items: [
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+          ],
+        },
+        //Crab Pot Bundle
+        {
+          name: "",
+          bundleImage: "",
+          bundleReward: {
+            item: "",
+            image: "",
+          },
+          items: [
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+          ],
+        },
+        //Specialty Fish Bundle
+        {
+          name: "",
+          bundleImage: "",
+          bundleReward: {
+            item: "",
+            image: "",
+          },
+          items: [
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+            {
+              name: "",
+              image: "",
+              description: "",
+              wiki: "",
+            },
+          ],
+        },
       ],
     },
   ],
 };
-
-// standardBundles.map((bundle, index) => {
-// });
 
 Object.keys(standardBundles.rooms).forEach((z) => {
   // console.log(z, standardBundles.rooms[z].name);
@@ -353,21 +1095,21 @@ Object.keys(standardBundles.rooms).forEach((z) => {
   });
 });
 for (let k in standardBundles.rooms) {
-  if(k == 0){
+  if (k == 0) {
     //console.log(k, standardBundles.rooms[k].name);
-    }else{
+  } else {
     //console.log(k, standardBundles.rooms[k].name);
-    }
+  }
 
   for (let i in standardBundles.rooms[k].bundles) {
-    if(i == 0){
+    if (i == 0) {
       //console.log(i, standardBundles.rooms[k].bundles[i].name);
-      }
+    }
     //console.log(standardBundles.rooms[k].bundles[i].name);
     for (let j in standardBundles.rooms[k].bundles[i].items) {
       // console.log(standardBundles.rooms[k].name);
-      if(j == 0){
-      //console.log(standardBundles.rooms[k].bundles[i].items[j].name);
+      if (j == 0) {
+        //console.log(standardBundles.rooms[k].bundles[i].items[j].name);
       }
       //console.log(standardBundles.rooms[k].bundles[i].items[j].name);
       //console.log(standardBundles.rooms.craftsRoom.bundles[i].items[j].description);
