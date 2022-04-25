@@ -670,416 +670,253 @@ export let standardBundles = {
         },
         //Lake Fish Bundle
         {
-          name: "",
-          bundleImage: "",
+          name: "Lake Fish Bundle",
+          bundleImage:
+            "https://stardewvalleywiki.com/mediawiki/images/4/46/Lake_Fish_Bundle.png",
           bundleReward: {
-            item: "",
-            image: "",
+            item: "Dressed Spinner (1)",
+            image:
+              "https://stardewvalleywiki.com/mediawiki/images/thumb/e/e8/Dressed_Spinner.png/24px-Dressed_Spinner.png",
           },
           items: [
             {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
+              name: "Largemouth Bass",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/1/11/Largemouth_Bass.png/24px-Largemouth_Bass.png",
+              description:
+                "Found in the Mountain lake, 6am - 7pm, All Seasons.",
+              wiki: "https://stardewvalleywiki.com/Largemouth_Bass",
             },
             {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
+              name: "Carp",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/a/a8/Carp.png/24px-Carp.png",
+              description:
+                "Found in the Mountain lake, Anytime, during Spring, Summer, or Fall. Found in Secret Woods or Sewer, Anytime, All Seasons.",
+              wiki: "https://stardewvalleywiki.com/Carp",
             },
             {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
+              name: "Bullhead",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/d/db/Bullhead.png/24px-Bullhead.png",
+              description: "Found in the Mountain Lake, Anytime, All Seasons.",
+              wiki: "https://stardewvalleywiki.com/Bullhead",
             },
             {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
-            },
-            {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
-            },
-            {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
-            },
-            {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
-            },
-            {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
-            },
-            {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
-            },
-            {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
-            },
-            {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
-            },
-            {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
+              name: "Sturgeon",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/4/42/Sturgeon.png/24px-Sturgeon.png",
+              description:
+                "Found in the Mountain Lake, 6am - 7pm, Summer and Winter.",
+              wiki: "https://stardewvalleywiki.com/Sturgeon",
             },
           ],
         },
         //Ocean Fish Bundle
         {
-          name: "",
-          bundleImage: "",
+          name: "Ocean Fish Bundle",
+          bundleImage:
+            "https://stardewvalleywiki.com/mediawiki/images/a/ac/Ocean_Fish_Bundle.png",
           bundleReward: {
-            item: "",
-            image: "",
+            item: "Warp Totem: Beach (5)",
+            image:
+              "https://stardewvalleywiki.com/mediawiki/images/thumb/2/2f/Warp_Totem_Beach.png/24px-Warp_Totem_Beach.png",
           },
           items: [
             {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
+              name: "Sardine",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/0/04/Sardine.png/24px-Sardine.png",
+              description:
+                "Found in the Ocean, 6am - 7pm, Spring, Fall, and Winter.",
+              wiki: "https://stardewvalleywiki.com/Sardine",
             },
             {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
+              name: "Tuna",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/c/c5/Tuna.png/24px-Tuna.png",
+              description: "Found in the Ocean, 6am - 7pm, Summer and Winter.",
+              wiki: "https://stardewvalleywiki.com/Tuna",
             },
             {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
+              name: "Red Snapper",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/d/d3/Red_Snapper.png/24px-Red_Snapper.png",
+              description:
+                "Found in the Ocean, 6am - 7pm, Summer and Fall. Only when raining.",
+              wiki: "https://stardewvalleywiki.com/Red_Snapper",
             },
             {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
-            },
-            {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
-            },
-            {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
-            },
-            {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
-            },
-            {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
-            },
-            {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
-            },
-            {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
-            },
-            {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
-            },
-            {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
+              name: "Tilapia",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/7/73/Tilapia.png/24px-Tilapia.png",
+              description: "Found in the Ocean, 6am - 2pm, Summer and Fall.",
+              wiki: "https://stardewvalleywiki.com/Tilapia",
             },
           ],
         },
         //Night Fishing Bundle
         {
-          name: "",
-          bundleImage: "",
+          name: "Night Fishing Bundle",
+          bundleImage:
+            "https://stardewvalleywiki.com/mediawiki/images/a/a7/Night_Fishing_Bundle.png",
           bundleReward: {
-            item: "",
-            image: "",
+            item: "Small Glow Ring (1)",
+            image:
+              "https://stardewvalleywiki.com/mediawiki/images/thumb/6/6c/Small_Glow_Ring.png/24px-Small_Glow_Ring.png",
           },
           items: [
             {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
+              name: "Walleye",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/0/05/Walleye.png/24px-Walleye.png",
+              description:
+                "Found in Rivers, Lakes and Forest Pond, 12pm - 2am, Fall. Only when raining.",
+              wiki: "https://stardewvalleywiki.com/Walleye",
             },
             {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
+              name: "Bream",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/8/82/Bream.png/24px-Bream.png",
+              description: "Found in Rivers, 6pm - 2am, All Seasons.",
+              wiki: "https://stardewvalleywiki.com/Bream",
             },
             {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
-            },
-            {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
-            },
-            {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
-            },
-            {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
-            },
-            {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
-            },
-            {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
-            },
-            {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
-            },
-            {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
-            },
-            {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
-            },
-            {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
+              name: "Eel",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/9/91/Eel.png/24px-Eel.png",
+              description:
+                "Found in the Ocean, 4pm - 2am, Spring or Fall. Only when raining.",
+              wiki: "https://stardewvalleywiki.com/Eel",
             },
           ],
         },
         //Crab Pot Bundle
         {
-          name: "",
-          bundleImage: "",
+          name: "Crab Pot Bundle",
+          bundleImage:
+            "https://stardewvalleywiki.com/mediawiki/images/2/22/Crab_Pot_Bundle.png",
           bundleReward: {
-            item: "",
-            image: "",
+            item: "Crab Pot (3)",
+            image:
+              "https://stardewvalleywiki.com/mediawiki/images/thumb/9/92/Crab_Pot.png/24px-Crab_Pot.png",
           },
           items: [
             {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
+              name: "Lobster",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/9/9f/Lobster.png/24px-Lobster.png",
+              description: "Caught in Crab Pots (ocean)",
+              wiki: "https://stardewvalleywiki.com/Lobster",
             },
             {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
+              name: "Crayfish",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/5/53/Crayfish.png/24px-Crayfish.png",
+              description: "Caught in Crab Pots (freshwater)",
+              wiki: "https://stardewvalleywiki.com/Crayfish",
             },
             {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
+              name: "Crab",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/6/63/Crab.png/24px-Crab.png",
+              description:
+                "Caught in Crab Pots (ocean), drops from Rock Crabs or Lava Crabs in The Mines",
+              wiki: "https://stardewvalleywiki.com/Crab",
             },
             {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
+              name: "Cockle",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/a/ad/Cockle.png/24px-Cockle.png",
+              description: "Caught in Crab Pots (ocean), Beach Foraging",
+              wiki: "https://stardewvalleywiki.com/Cockle",
             },
             {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
+              name: "Mussel",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/a/aa/Mussel.png/24px-Mussel.png",
+              description: "Caught in Crab Pots (ocean), Beach Foraging",
+              wiki: "https://stardewvalleywiki.com/Mussel",
             },
             {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
+              name: "Shrimp",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/9/91/Shrimp.png/24px-Shrimp.png",
+              description: "Caught in Crab Pots (ocean)",
+              wiki: "https://stardewvalleywiki.com/Shrimp",
             },
             {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
+              name: "Snail",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/d/d2/Snail.png/24px-Snail.png",
+              description: "Caught in Crab Pots (freshwater)",
+              wiki: "https://stardewvalleywiki.com/Snail",
             },
             {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
+              name: "Periwinkle",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/1/1d/Periwinkle.png/24px-Periwinkle.png",
+              description: "Caught in Crab Pots (freshwater)",
+              wiki: "https://stardewvalleywiki.com/Periwinkle",
             },
             {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
+              name: "Oyster",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/5/54/Oyster.png/24px-Oyster.png",
+              description: "Caught in Crab Pots (ocean), Beach Foraging",
+              wiki: "https://stardewvalleywiki.com/Oyster",
             },
             {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
-            },
-            {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
-            },
-            {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
+              name: "Clam",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/e/ed/Clam.png/24px-Clam.png",
+              description: "	Caught in Crab Pots (ocean), Beach Foraging",
+              wiki: "https://stardewvalleywiki.com/Clam",
             },
           ],
         },
         //Specialty Fish Bundle
         {
-          name: "",
-          bundleImage: "",
+          name: "Specialty Fish Bundle",
+          bundleImage:
+            "https://stardewvalleywiki.com/File:Specialty_Fish_Bundle.png",
           bundleReward: {
-            item: "",
-            image: "",
+            item: "Dish O' The Sea (5)",
+            image:
+              "https://stardewvalleywiki.com/mediawiki/images/thumb/f/ff/Dish_O%27_The_Sea.png/24px-Dish_O%27_The_Sea.png",
           },
           items: [
             {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
+              name: "Pufferfish",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/b/ba/Pufferfish.png/24px-Pufferfish.png",
+              description:
+                "Found in the Ocean, 12pm - 4pm, Summer during sunny weather.",
+              wiki: "https://stardewvalleywiki.com/Pufferfish",
             },
             {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
+              name: "Ghostfish",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/7/72/Ghostfish.png/24px-Ghostfish.png",
+              description:
+                "Found in ponds in The Mines floors 20 and 60, Anytime, All Seasons. May also be dropped by Ghosts.",
+              wiki: "https://stardewvalleywiki.com/Ghostfish",
             },
             {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
+              name: "Sandfish",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/b/bb/Sandfish.png/24px-Sandfish.png",
+              description:
+                "Found in the pond in The Desert, 6am - 8pm, All Seasons.",
+              wiki: "https://stardewvalleywiki.com/Sandfish",
             },
             {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
-            },
-            {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
-            },
-            {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
-            },
-            {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
-            },
-            {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
-            },
-            {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
-            },
-            {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
-            },
-            {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
-            },
-            {
-              name: "",
-              image: "",
-              description: "",
-              wiki: "",
+              name: "Woodskip",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/9/97/Woodskip.png/24px-Woodskip.png",
+              description:
+                "Found in the Secret Woods and the Forest Farm, Anytime, All Seasons.",
+              wiki: "https://stardewvalleywiki.com/Woodskip",
             },
           ],
         },
