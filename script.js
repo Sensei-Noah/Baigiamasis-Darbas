@@ -83,10 +83,6 @@ exoticFB.addEventListener("click", exoticFBCon);
 let completedProgress = 0;
 
 const progresschange = () => {
-  // localStorage.setItem('localprogress', completedProgress);
-  // let lprogress = localStorage.getItem('localprogress');
-  // completedProgress = lprogress;
-
   const progress = document.getElementById("progressbar");
   let progressPercent = completedProgress / 1.15;
   progress.style.width = `${progressPercent}%`;

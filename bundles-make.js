@@ -2,6 +2,17 @@ import { standardBundles } from "./data.js";
 
 const accordionHead = document.getElementById("accordionPanelsStayOpenExample");
 
+// Progress bar
+let completedProgress = 0;
+
+const progressChange = () => {
+  const progress = document.getElementById("progressbar");
+  let progressPercent = completedProgress / 1.15;
+  progress.style.width = `${progressPercent}%`;
+  progress.innerText = `${completedProgress}/115`;
+};
+//Progress bar END
+
 for (let k in standardBundles.rooms) {
   let accordionContent = document.createElement("div");
   accordionContent.className = "accordion-item bg-transparent";
@@ -44,7 +55,6 @@ for (let k in standardBundles.rooms) {
   `;
 
   for (let i in standardBundles.rooms[k].bundles) {
-    //console.log(standardBundles.rooms[k].bundles[i].name);
     const body_content = document.getElementById("accordion-body-content" + k);
 
     let content = document.createElement("table");
@@ -67,6 +77,7 @@ for (let k in standardBundles.rooms) {
       </tr>
 
     `;
+
     let contentReward = document.createElement("tr");
     contentReward.innerHTML = `
     <th scope="row">
@@ -128,6 +139,48 @@ for (let k in standardBundles.rooms) {
           }">Wiki</a>
         </td>
       `;
+
+      // Local Storage saving
+      const inputItem = document.getElementById(
+        standardBundles.rooms[k].bundles[i].items[n].name.replaceAll(" ", "_")
+      );
+
+      const change = () => {
+        if (inputItem.checked == true) {
+          ++completedProgress;
+          localStorage.setItem(
+            standardBundles.rooms[k].bundles[i].items[n].name.replaceAll(
+              " ",
+              "_"
+            ),
+            inputItem.checked
+          );
+        } else {
+          --completedProgress;
+          localStorage.removeItem(
+            standardBundles.rooms[k].bundles[i].items[n].name.replaceAll(
+              " ",
+              "_"
+            )
+          );
+        }
+        progressChange();
+      };
+
+      inputItem.addEventListener("input", change);
+
+      let addedItem = JSON.parse(
+        localStorage.getItem(
+          standardBundles.rooms[k].bundles[i].items[n].name.replaceAll(" ", "_")
+        )
+      );
+      inputItem.checked = addedItem;
+
+      if (addedItem == true) {
+        ++completedProgress;
+      }
+
+      progressChange();
     }
   }
 }

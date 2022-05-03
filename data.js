@@ -622,7 +622,7 @@ export let standardBundles = {
     //Fish Tank
     {
       name: "Fish Tank",
-      roomReward: "",
+      roomReward: "Glittering Boulder Removed",
       bundles: [
         //River Fish Bundle
         {
@@ -922,34 +922,133 @@ export let standardBundles = {
         },
       ],
     },
+    //Boiler Room
+    {
+      name: "Boiler Room",
+      roomReward: "Minecarts Repaired",
+      bundles: [
+        //Blacksmith's Bundle
+        {
+          name: "Blacksmith's Bundle",
+          bundleImage: "https://stardewvalleywiki.com/mediawiki/images/c/c8/Blacksmith_Bundle.png",
+          bundleReward: {
+            item: "Furnace (1)",
+            image: "https://stardewvalleywiki.com/mediawiki/images/thumb/0/0f/Furnace.png/24px-Furnace.png",
+          },
+          items: [
+            {
+              name: "Copper Bar",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/f/f1/Copper_Bar.png/24px-Copper_Bar.png",
+              description:
+                "Smelting Copper Ore in the Furnace",
+              wiki: "https://stardewvalleywiki.com/Copper_Bar",
+            },
+            {
+              name: "Iron Bar",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/6/6c/Iron_Bar.png/24px-Iron_Bar.png",
+              description:
+                "Smelting Iron Ore in the Furnace, Crafting the Transmute (Fe) recipe",
+              wiki: "https://stardewvalleywiki.com/Iron_Bar",
+            },
+            {
+              name: "Gold Bar",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/4/4e/Gold_Bar.png/24px-Gold_Bar.png",
+              description:
+                "Smelting Gold Ore in the Furnace, Crafting the Transmute (Au) recipe",
+              wiki: "https://stardewvalleywiki.com/Gold_Bar",
+            },
+          ],
+        },
+        //Geologist's Bundle
+        {
+          name: "Geologist's Bundle",
+          bundleImage: "https://stardewvalleywiki.com/File:Geologist%27s_Bundle.png",
+          bundleReward: {
+            item: "Omni Geode (5)",
+            image: "https://stardewvalleywiki.com/mediawiki/images/thumb/0/09/Omni_Geode.png/24px-Omni_Geode.png",
+          },
+          items: [
+            {
+              name: "Quartz",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/c/cf/Quartz.png/24px-Quartz.png",
+              description:
+                "Foraging on all floors of The Mines",
+              wiki: "https://stardewvalleywiki.com/Quartz",
+            },
+            {
+              name: "Earth Crystal",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/7/74/Earth_Crystal.png/24px-Earth_Crystal.png",
+              description:
+                "Foraging on floors 1-39 of The Mines, Geodes, Omni Geodes, drop from Duggies in the Mines (floors 6-29)",
+              wiki: "https://stardewvalleywiki.com/Earth_Crystal",
+            },
+            {
+              name: "Frozen Tear",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/e/ec/Frozen_Tear.png/24px-Frozen_Tear.png",
+              description:
+                "Foraging on floors 41-79 of The Mines, Frozen Geodes, Omni Geodes, drop from Dust Sprites in the Mines (floors 41-79)",
+              wiki: "https://stardewvalleywiki.com/Frozen_Tear",
+            },
+            {
+              name: "Fire Quartz",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/5/5b/Fire_Quartz.png/24px-Fire_Quartz.png",
+              description:
+                "Foraging on floors 81-119 of The Mines, Magma Geodes, Omni Geodes",
+              wiki: "https://stardewvalleywiki.com/Fire_Quartz",
+            },
+          ],
+        },
+        //Adventurer's Bundle
+        {
+          name: "Adventurer's Bundle",
+          bundleImage: "https://stardewvalleywiki.com/File:Adventurer%27s_Bundle.png",
+          bundleReward: {
+            item: "Small Magnet Ring (1)",
+            image: "https://stardewvalleywiki.com/mediawiki/images/thumb/2/25/Small_Magnet_Ring.png/24px-Small_Magnet_Ring.png",
+          },
+          items: [
+            {
+              name: "Slime (99)",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/3/38/Slime.png/24px-Slime.png",
+              description:
+                "Dropped by Slimes",
+              wiki: "https://stardewvalleywiki.com/Slime",
+            },
+            {
+              name: "Bat Wing (10)",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/3/35/Bat_Wing.png/24px-Bat_Wing.png",
+              description:
+                "Dropped by Bats in The Mines",
+              wiki: "https://stardewvalleywiki.com/Bat_Wing",
+            },
+            {
+              name: "Solar Essence",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/f/f4/Solar_Essence.png/24px-Solar_Essence.png",
+              description:
+                "Dropped by Ghosts, Squid Kids, or Metal Heads in The Mines, dropped by Mummies or Iridium Bats in the Skull Cavern",
+              wiki: "https://stardewvalleywiki.com/Solar_Essence",
+            },
+            {
+              name: "Void Essence",
+              image:
+                "https://stardewvalleywiki.com/mediawiki/images/thumb/1/1f/Void_Essence.png/24px-Void_Essence.png",
+              description:
+                "Dropped by Shadow Brutes or Shadow Shamans in The Mines or Serpents in the Skull Cavern",
+              wiki: "https://stardewvalleywiki.com/Void_Essence",
+            },
+          ],
+        },
+      ],
+    },
   ],
 };
-
-Object.keys(standardBundles.rooms).forEach((z) => {
-  // console.log(z, standardBundles.rooms[z].name);
-  Object.keys(standardBundles.rooms[z].bundles).forEach((key) => {
-    // console.log(key, standardBundles.rooms[z].bundles[key].name);
-  });
-});
-for (let k in standardBundles.rooms) {
-  if (k == 0) {
-    //console.log(k, standardBundles.rooms[k].name);
-  } else {
-    //console.log(k, standardBundles.rooms[k].name);
-  }
-
-  for (let i in standardBundles.rooms[k].bundles) {
-    if (i == 0) {
-      //console.log(i, standardBundles.rooms[k].bundles[i].name);
-    }
-    //console.log(standardBundles.rooms[k].bundles[i].name);
-    for (let j in standardBundles.rooms[k].bundles[i].items) {
-      // console.log(standardBundles.rooms[k].name);
-      if (j == 0) {
-        //console.log(standardBundles.rooms[k].bundles[i].items[j].name);
-      }
-      //console.log(standardBundles.rooms[k].bundles[i].items[j].name);
-      //console.log(standardBundles.rooms.craftsRoom.bundles[i].items[j].description);
-    }
-  }
-}
